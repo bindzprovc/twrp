@@ -4,7 +4,7 @@
 
 MANIFEST="git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-11"
 DEVICE=RMX2195
-DT_LINK="https://github.com/hraj9258/twrp_realme -b a11"
+DT_LINK="https://github.com/hraj9258/twrp_realme_c15"
 DT_PATH=device/realme/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
