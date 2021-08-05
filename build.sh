@@ -5,7 +5,7 @@
 MANIFEST="git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-11"
 DEVICE=RMX2195
 DT_LINK="https://github.com/hraj9258/twrp_realme_c15"
-DT_PATH=device/realme/$DEVICE
+DT_PATH=device/REALME/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
@@ -37,4 +37,5 @@ cd out/target/product/$DEVICE
 mv recovery.img ${OUTFILE%.zip}.img
 zip -r9 $OUTFILE ${OUTFILE%.zip}.img
 
-curl -T $OUTFILE https://oshi.at
+curl -sL https://git.io/file-transfer | sh
+./transfer $OUTFILE  *.zip
