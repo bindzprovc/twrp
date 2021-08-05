@@ -2,10 +2,10 @@
 
 # Just a basic script U can improvise lateron asper ur need xD 
 
-MANIFEST="git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11"
-DEVICE=phoenix
-DT_LINK="https://github.com/hraj9258/twrp_phoenix -b a11"
-DT_PATH=device/xiaomi/$DEVICE
+MANIFEST="git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-11"
+DEVICE=RMX2195
+DT_LINK="https://github.com/hraj9258/twrp_realme -b a11"
+DT_PATH=device/realme/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
